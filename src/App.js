@@ -6,7 +6,7 @@ import MouseContainer from "./components/MouseContainer";
 import IntervalCounter from "./components/IntervalCounter";
 import DataFetching from "./components/DataFetching";
 import Counter from "./components/Counter";
-import Greeting from "./components/Greeting";
+import OrderedList from "./components/OrderedList";
 import ProductDetail from "./components/ProductDetail";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,7 +22,8 @@ class App extends Component {
         {/* <IntervalCounter /> */}
         {/* <DataFetching/> */}
         {/* <Counter/> */}
-        <ProductDetail />
+        <OrderedList/> 
+        {/* <ProductDetail /> */}
         <div className="container">
           {/* <Contacts/> */}
         </div>
