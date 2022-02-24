@@ -15,16 +15,14 @@ class UniqueList extends React.Component {
 
   removeItem = () => {
     this.setState({cart: this.state.cart.filter((x) => x !== this.state.pro.trim())})
-    }
+  }
   
   acceptitem = (e) => {
     this.setState({pro: e.target.value })
-
   }
   
   clear = (e) => {
   this.setState({cart: []})
-
   }
   
   
