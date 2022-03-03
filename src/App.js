@@ -15,15 +15,21 @@ import FocusInput from "./components/FocusInput";
 import LandingPage from "./components/LandingPage";
 import Heading from "./components/TestTwo";
 import CounterReducer from "./components/CounterReducer";
+import MyForm from "./components/MyForm";
+import DynamicInput from "./components/DynamicInput";
+import FetchDemo from "./components/FetchDemo";
+import FetchDemoTwo from "./components/FetchDemoTwo";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 
-class App extends Component {
-  render(){
 
+
+class App extends Component {
+
+  render(){
     return (
       <div className="App">
         {/* <Greeting/> */}
@@ -44,7 +50,11 @@ class App extends Component {
         {/* <FocusInput /> */}
         {/* <Heading/> */}
         {/* <LandingPage/> */}
-        <CounterReducer />
+        {/* <CounterReducer /> */}
+        {/* <MyForm/> */}
+        {/* <DynamicInput/> */}
+        <FetchDemo/>
+        <FetchDemoTwo/>
         <div className="container">
           {/* <Contacts/> */}
         </div>

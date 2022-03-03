@@ -5,10 +5,11 @@ import Register from './Register';
 import Portfolio from './Portfolio';
 
 
+
 export default class LandingPage extends Component {
   render() {
     return (
-      <div>{routes}</div>
+      <div>LandingPage {routes}</div>
     )
   }
 }
